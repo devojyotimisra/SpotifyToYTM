@@ -1,0 +1,10 @@
+[project]
+name = "spotify-to-ytmusic"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+    "spotipy>=2.25.2",
+    "ytmusicapi>=1.11.4",
+]
