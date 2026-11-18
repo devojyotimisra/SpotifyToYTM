@@ -22,10 +22,11 @@ This script takes all your **Liked Songs from Spotify** and migrates them to a s
 
 | Feature | Description |
 |---------|-------------|
+| 🎯 **100% Audio Accuracy** | Enforces studio `songs` catalog only, ISRC matching, strict duration check (±2–3s), and negative keyword filtering (no music videos, live bootlegs, or covers) |
 | 🔄 **Full Migration** | Transfers all your Spotify Liked Songs to YouTube Music |
-| 📊 **Beautiful UI** | Rich terminal progress bars that make you feel like a hacker |
-| 🎯 **Smart Matching** | Searches YouTube Music to find the best match for each song |
-| 📋 **Failure Tracking** | Shows you which songs couldn't be found (RIP obscure indie tracks) |
+| 🛡️ **Zero-Drop Verification** | Interactive queue for borderline tracks so no song is silently lost or incorrectly matched |
+| 📋 **Audit Report** | Exports `migration_audit.json` with every track's match confidence, audio type, and duration delta |
+| 📊 **Beautiful UI** | Rich terminal progress bars and detailed summary tables |
 | ⚡ **Rate Limiting** | Built-in delays to avoid getting rate-limited |
 
 ---
